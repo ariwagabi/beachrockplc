@@ -297,6 +297,8 @@ h1 {
 
 .hp {
     padding-left: 2rem;
+    padding-right: 2rem;
+    border-left: 10px solid var(--yellow);
 }
 
 .main-btn {
