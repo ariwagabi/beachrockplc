@@ -1,0 +1,148 @@
+@media (min-width:768px) {
+    .container {
+        max-width: 720px !important;
+        border: 1px solid green !important;
+    }
+    
+    section {
+        margin: 2rem 0 !important;
+    }
+
+    .header-container {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    #navmenu {
+        text-align: center;
+        display: block !important;
+    }
+
+    .nav-link-container {
+        flex-direction: row !important;
+    }
+
+    .icon {
+        display: none !important;
+    }
+
+    /* Hero-area */
+    .hero-area-item-middle {
+        top: 130px !important;
+        /* padding: 0 2rem !important; */
+    }
+
+    .hero-box {
+        row-gap: 2rem !important;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .hp {
+        padding-right: 4rem !important;
+        font-size: 1.2rem;
+    }
+
+    .hero-area-link {
+        padding-left: 2.7rem !important;
+    }
+
+    /* Info Section */
+    .info-content-grid {
+        grid-template-columns: repeat(2, auto) !important;
+        column-gap: 2.5rem;
+    }
+
+    .info-content-title {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    /*Program Section */
+
+    .program-wrapper {
+        padding: 1rem !important;
+        background: var(--white);
+        color: var(--gray-dark);
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto !important;
+        grid-template-rows: 1fr;
+        column-gap: 1rem !important;
+        margin: 0 !important;
+        row-gap: 1rem !important;
+    }
+
+    .program-inner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem !important;
+    }
+
+    .program-inner h5 {
+        font-size: 1.4rem !important;
+    }
+
+    /* Program Section End */
+
+    /* Pricing Section */
+    .pricing-container {
+        grid-template-columns: auto auto !important;
+        column-gap: 1rem !important;
+    }
+
+    .pricing-item {
+        margin-bottom: 1rem !important;
+        padding: .6rem 0 !important;
+    }
+
+    /* Feature Section */
+    .feature-container {
+        grid-template-columns: auto auto !important;
+        row-gap: 0 !important;
+    }
+
+    .feature-image-container {
+        padding: 0 0 1rem !important;
+    }
+
+    /* Client Section */
+
+    .client-container {
+        grid-template-columns: repeat(4, auto) !important;
+        column-gap: .7rem !important;
+    }
+
+    /* CM Market */
+    .cm-market-container {
+        grid-template-columns: auto auto !important;
+        column-gap: 1rem;
+        row-gap: 1rem !important;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(4, auto) !important;
+        justify-content: space-evenly !important;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+        border: 1px solid blue !important;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1200px;
+        border: 1px solid yellow !important;
+    }
+}
