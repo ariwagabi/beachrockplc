@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BEACHROCKPLC</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="/css/animate.css"> -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/css/flaticon.css"> -->
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- <link rel="stylesheet" href="/css/line-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<style>
+  #icon {
+font-size: 14px;
+}
+
+#login-container {
+margin-top: 3rem;
+}
+
+#heading-container h1 {
+font-size: 2rem;
+font-family: sans-serif;
+margin-bottom: 0;
+}
+
+.signp-link {
+color: blue;
+}
+
+#heading-container p {
+font-size: .9rem;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+row-gap: 8px;
+}
+
+.remember-id {
+margin-top: -5px;
+font-size: .8rem;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit] {
+height: 30px;
+display: block;
+}
+
+input[type=submit] {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+border: 0;
+background-color:  #112d7ad0 !important;
+color: #e9e9e9;
+}
+</style>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <section id="header-container">
+
+        <article id="logo">
+          <a href="a=home"><img src="images/xlogo.jpg" alt="logo" max-width="100%"
+              height="60"></a>
+        </article>
+
+        <article id="icon">
+          <i class="fa fa-lock"></i>
+        </article>
+
+      </section>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="login-container">
+      <article id="heading-container">
+        <h1>Log In</h1>
+        <p>If you have an account, log in below and enter your mySite client profile. If you haven't already, you'll
+          need to <a class="signp-link" href="a=signup">create your mySite Login ID and password first.</a></p>
+      </article>
+
+      <article id="form">
+        <form name="login" action="" method="POST" enctype="multipart/form-data" netlify>
+          <label for="loginID">Login ID</label>
+          <input type="text" name="loginID" id="loginID">
+
+          <label for="pword">Password</label>
+          <input type="password" name="pword" id="pword">
+
+          <div class="remember-id">
+            <input type="checkbox" name="remember" id="remember"> 
+            <label for="remember">Remember Login ID</label>
+          </div>
+
+          <input type="submit" value="Log In">
+        </form>
+      </article>
+    </section>
+  </div>
+</body>
+
+</html>
+</html>
